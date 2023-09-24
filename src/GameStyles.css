@@ -1,6 +1,9 @@
 body {
     background-color: rgba(39, 40, 52, 0.945);
 }
+h3 {
+    font-size: 20px;
+}
 .game-board {
     margin: 25px;
     width: 500px;
@@ -66,4 +69,18 @@ body {
     margin-top: 10px;
     cursor: pointer;
     
+}
+
+@media (max-width: 768px) {
+    .game-board {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 470px) {
+    .game-board {
+        width: 250px;
+        height: 250px;
+    }
 }

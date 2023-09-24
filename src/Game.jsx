@@ -20,6 +20,7 @@ const Game = () => {
     }
     return (
         <div>
+            <h3>Game TicTacToe</h3>
             <Board cells={board} onClick={handleClick}></Board>
             <div className={winner ? "popup-winner active" : "popup-winner"}>
                 <div className='popup-winner-box'>
